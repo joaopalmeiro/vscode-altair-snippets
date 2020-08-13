@@ -1,0 +1,7 @@
+{
+  "import": {
+    "prefix": "altim",
+    "body": "import altair as alt",
+    "description": "Import Altair"
+  }
+}

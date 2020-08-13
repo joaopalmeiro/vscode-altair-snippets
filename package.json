@@ -1,0 +1,20 @@
+{
+  "name": "altair-snippets",
+  "displayName": "Altair Snippets",
+  "description": "A VS Code extension for scaffolding Altair charts for data visualization.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "python",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
