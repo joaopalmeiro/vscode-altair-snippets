@@ -4,7 +4,7 @@
   "description": "A VS Code extension for scaffolding Altair charts for data visualization.",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.47.0"
+    "vscode": "^1.63.0"
   },
   "categories": [
     "Snippets"

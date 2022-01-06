@@ -1,16 +1,12 @@
 {
   "Import Altair": {
-    "prefix": "altim",
-    "body": "import altair as alt",
+    "prefix": "imalt",
+    "body": ["import altair as alt", ""],
     "description": "Import Altair"
   },
   "Import Altair suite": {
-    "prefix": "altims",
-    "body": [
-      "import altair as alt",
-      "import pandas as pd",
-      "from vega_datasets import data"
-    ],
-    "description": "Import Altair suite"
+    "prefix": "imaltpd",
+    "body": ["import altair as alt", "import pandas as pd", ""],
+    "description": "Import Altair and pandas"
   }
 }
