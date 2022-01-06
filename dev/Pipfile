@@ -8,6 +8,7 @@ jupyterlab = "*"
 altair = "==4.1.0"
 black = {version = "==21.12b0", extras = ["jupyter"]}
 orjson = "*"
+pyperclip = "*"
 
 [dev-packages]
 

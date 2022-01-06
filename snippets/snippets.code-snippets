@@ -6,7 +6,12 @@
   },
   "Import Altair suite": {
     "prefix": "imaltpd",
-    "body": ["import altair as alt", "import pandas as pd", ""],
+    "body": "import altair as alt\nimport pandas as pd\n",
     "description": "Import Altair and pandas"
+  },
+  "Vega-Embed metadata object": {
+    "prefix": "embed",
+    "body": "metadata = {\n    \"embedOptions\": {\n        \"renderer\": \"svg\",\n        \"actions\": {\n            \"export\": True,\n            \"source\": False,\n            \"compiled\": False,\n            \"editor\": False,\n        },\n        \"i18n\": {\"PNG_ACTION\": \"Export as PNG\", \"SVG_ACTION\": \"Export as SVG\"},\n        \"scaleFactor\": 5,\n        \"downloadFileName\": \"$1\",\n    }\n}\n",
+    "description": "Add a pre-defined Vega-Embed metadata object"
   }
 }
