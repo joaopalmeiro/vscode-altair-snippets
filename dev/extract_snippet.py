@@ -1,5 +1,6 @@
 import orjson
 
+# Edit before running the script:
 NOTEBOOK: str = "dev.ipynb"
 ID: str = ""
 
