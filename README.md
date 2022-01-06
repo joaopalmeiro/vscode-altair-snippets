@@ -8,7 +8,8 @@ A VS Code extension for scaffolding [Altair](https://altair-viz.github.io/) char
 
 ## Development
 
-- `Fn`+`F5` (macOS) and create a new Python file. Reload: `Command`+`R`.
+- macOS: `Fn`+`F5` and create a new Python file.
+- Reload: `Command`+`R`.
 - Install locally: `make copy`.
 
 ## Notes
