@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyterlab = "*"
+altair = "==4.1.0"
+black = {version = "==21.12b0", extras = ["jupyter"]}
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+# https://pipenv-fork.readthedocs.io/en/latest/advanced.html#custom-script-shortcuts
+fmt = "black dev.ipynb --verbose"
