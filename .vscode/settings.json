@@ -1,0 +1,6 @@
+{
+  "workbench.editorAssociations": {
+    // https://stackoverflow.com/a/69340097
+    "*.ipynb": "default"
+  }
+}
