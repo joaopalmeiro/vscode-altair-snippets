@@ -9,6 +9,8 @@ altair = "==4.1.0"
 black = {version = "==21.12b0", extras = ["jupyter"]}
 orjson = "*"
 pyperclip = "*"
+nbqa = "*"
+isort = "*"
 
 [dev-packages]
 
@@ -17,4 +19,5 @@ python_version = "3.8"
 
 [scripts]
 # https://pipenv-fork.readthedocs.io/en/latest/advanced.html#custom-script-shortcuts
+# https://github.com/pypa/pipenv/issues/2160
 fmt = "black dev.ipynb --verbose"
