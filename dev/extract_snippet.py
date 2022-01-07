@@ -5,7 +5,7 @@ import pyperclip
 
 # Edit before running the script:
 NOTEBOOK: str = "dev.ipynb"
-ID: str = "808a09ec-be95-47f9-8986-2546d7cde82d"
+ID: str = "ab6233dd-0b83-44c8-bf78-a156bf60a5df"
 
 
 def search_cell(id, notebook):

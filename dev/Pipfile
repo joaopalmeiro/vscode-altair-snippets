@@ -11,6 +11,7 @@ orjson = "*"
 pyperclip = "*"
 nbqa = "*"
 isort = "*"
+mdformat = "*"
 
 [dev-packages]
 

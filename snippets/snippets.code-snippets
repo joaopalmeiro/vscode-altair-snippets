@@ -2,16 +2,21 @@
   "Import Altair": {
     "prefix": "imalt",
     "body": ["import altair as alt", ""],
-    "description": "Import Altair"
+    "description": "Import Altair."
   },
   "Import Altair suite": {
     "prefix": "imaltpd",
     "body": "import altair as alt\nimport pandas as pd\n",
-    "description": "Import Altair and pandas"
+    "description": "Import Altair and pandas."
   },
   "Vega-Embed metadata object": {
     "prefix": "embed",
     "body": "metadata = {\n    \"embedOptions\": {\n        \"renderer\": \"svg\",\n        \"actions\": {\n            \"export\": True,\n            \"source\": False,\n            \"compiled\": False,\n            \"editor\": False,\n        },\n        \"i18n\": {\"PNG_ACTION\": \"Export as PNG\", \"SVG_ACTION\": \"Export as SVG\"},\n        \"scaleFactor\": 5,\n        \"downloadFileName\": \"$1\",\n    }\n}\n",
-    "description": "Add a pre-defined Vega-Embed metadata object to pass in the `.properties()` method of a chart"
+    "description": "Add a pre-defined Vega-Embed metadata object to pass in the `properties()` method of a chart."
+  },
+  "`properties()` method": {
+    "prefix": "embedprop",
+    "body": "alt.Chart().mark_bar().encode().properties(usermeta=${1:metadata})\n",
+    "description": "Bootstrap the `properties()` method to pass Vega-Embed metadata to a chart. Apart from this method, the rest of the snippet is just for context."
   }
 }
